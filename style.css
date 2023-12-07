@@ -1,0 +1,16 @@
+div {
+  width: 100px;
+  height: 100px;
+  animation-name: anime;
+  animation-duration: 4s;
+  animation-iteration-count: :infinite;
+  position: relative;
+}
+@keyframes anime {
+   0%   {background-image; left:100px; top:100px;}
+  25%  {background-image; left:200px; top:120px;}
+  50%  {background-image; left:200px; top:200px;}
+  75%  {background-image; left:150px; top:200px;}
+  100% {background-image;left:0px; top:80px;}
+
+}
